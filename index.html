@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en"style="scroll-behavior:smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/glacial-indifference" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
+
+    <title>VELICKAKATHU TRADERS</title>
+    <link rel="icon" type="image/png" href="img/dp.png">
+    <style>
+        .custom-section {
+            position: relative;
+        }
+
+        .image-overlay {
+            position: absolute;
+            top: 50%;
+            left: 0; /* Updated to align with the left side of the page */
+            transform: translateY(-58%);
+            text-align: left; /* Align text to the left */
+            
+            font-weight: normal; /* Regular weight */
+            
+        }
+            
+         
+        .image-overlay h1 {
+            font-size: 60px; /* Font size for h1 */
+            margin-bottom: 10px; /* Bottom margin for h1 */
+            text-align: left;
+            font-family: sans-serif;
+            font-weight: 20px;
+            padding-left: 72px; /* Add padding for better readability */
+           color: goldenrod;
+           letter-spacing: 5px;
+           font-style: italic;
+            
+        }
+        .image-overlay h2{
+            font-size: 60px; /* Font size for h2 */
+            color: #ffffff;
+            font-family: 'GlacialIndifferenceRegular';
+            font-weight: normal;
+             font-style: normal;
+            letter-spacing: 5px; 
+            
+            
+            padding-left: 72px;
+
+
+        }
+      
+        .read-more-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 5px;
+            background-color: #1772d3; /* Set your desired button color */
+            color: #fff; /* Set text color */
+            text-decoration: none; /* Remove underline */
+            border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+            margin-left: 25px;
+        }
+        .text-box {
+            border: 1px solid rgba(92, 30, 5, 0.450); /* Border color */
+            padding: 10px; /* Adjust padding as needed */
+            background-color:rgba(92, 30, 5, 0.450); /* Background color */
+             /* Make the box only as wide as the content */
+            margin-top: 100px;
+            border-radius: 15px;
+            margin-left: 50px;
+            width:500px;
+            height: 300px;
+        }
+        .text-box2 {
+            border: 1px solid rgba(92, 30, 5, 0.450); /* Border color */
+            padding: 10px; /* Adjust padding as needed */
+            background-color:rgba(92, 30, 5, 0.450); /* Background color */
+             /* Make the box only as wide as the content */
+            margin-top: 90px;
+            border-radius: 15px;
+            margin-right: 100px;
+            width: 600px;
+            height: 300px;
+            
+        }
+        
+/* Target the why-choose-us section */
+.why-choose-us h1,
+.why-choose-us h2,
+.why-choose-us h3,
+.why-choose-us h4,
+.why-choose-us h5,
+.why-choose-us h6 {}
+
+.why-choose-us a,
+.why-choose-us a:hover,
+.why-choose-us a:focus,
+.why-choose-us a:active {
+    text-decoration: none;
+    outline: none;
+}
+
+.why-choose-us ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.why-choose-us img {
+    max-width: 100%;
+    height: auto;
+}
+
+.why-choose-us span,
+.why-choose-us a,
+.why-choose-us a:hover {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.why-choose-us .section-head {
+    margin-bottom: 60px;
+}
+
+.why-choose-us .section-head h4 {
+    position: relative;
+    padding: 0;
+    color: blue;
+    line-height: 1;
+    letter-spacing: 0.3px;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 30px;
+}
+
+.why-choose-us .section-head h4:before {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: blue;
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+    right: 0;
+    margin: 0 auto;
+}
+
+.why-choose-us .section-head h4 span {
+    font-weight: 700;
+    padding-bottom: 5px;
+    color: #2f2f2f;
+}
+
+.why-choose-us p.service_text {
+    color: #cccccc !important;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.why-choose-us .section-head p,
+.why-choose-us p.awesome_line {
+    color: #818181;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.why-choose-us .extra-text {
+    font-size: 34px;
+    font-weight: 700;
+    color: #2f2f2f;
+    margin-bottom: 25px;
+    position: relative;
+    text-transform: none;
+}
+
+.why-choose-us .extra-text::before {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: blue;
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+    right: 0;
+    margin: 0 auto;
+}
+
+.why-choose-us .extra-text span {
+    font-weight: 700;
+    color: blue;
+}
+
+.why-choose-us .item {
+    background: #fff;
+    text-align: center;
+    padding: 30px 25px;
+    -webkit-box-shadow: 0 0px 25px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 0px 25px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    border: 5px solid rgba(0, 0, 0, 0.07);
+    margin-bottom: 30px;
+    -webkit-transition: all 0.5s ease 0;
+    transition: all 0.5s ease 0;
+}
+
+.why-choose-us .item:hover {
+    background: blue;
+    box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.5s ease 0;
+    transition: all 0.5s ease 0;
+}
+
+.why-choose-us .item:hover .item,
+.why-choose-us .item:hover span.icon {
+    background: #fff;
+    border-radius: 10px;
+    -webkit-transition: all 0.5s ease 0;
+    transition: all 0.5s ease 0;
+}
+
+.why-choose-us .item:hover h6,
+.why-choose-us .item:hover p {
+    color: #fff;
+    -webkit-transition: all 0.5s ease 0;
+    transition: all 0.5s ease 0;
+}
+
+.why-choose-us .item .icon {
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: blue;
+    width: 90px;
+    height: 90px;
+    line-height: 96px;
+    border-radius: 50px;
+}
+
+.why-choose-us .item .feature_box_col_one {
+    background: rgba(247, 198, 5, 0.20);
+    color: blue;
+}
+
+.why-choose-us .item .feature_box_col_two {
+    background: rgba(255, 77, 28, 0.15);
+    color: blue;
+}
+
+.why-choose-us .item .feature_box_col_three {
+    background: rgba(0, 147, 38, 0.15);
+    color: blue;
+}
+
+.why-choose-us .item .feature_box_col_four {
+    background: rgba(0, 108, 255, 0.15);
+    color: blue;
+}
+
+.why-choose-us .item .feature_box_col_five {
+    background: rgba(146, 39, 255, 0.15);
+    color:blue;
+}
+
+.why-choose-us .item .feature_box_col_six {
+    background: rgba(23, 39, 246, 0.15);
+    color:blue;
+}
+
+.why-choose-us .item p {
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.why-choose-us .item h6 {
+    margin-bottom: 20px;
+    color: #2f2f2f;
+}
+
+.why-choose-us .mission p {
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.why-choose-us .mission i {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background:blue;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 25px;
+}
+
+.why-choose-us .mission .small-text {
+    margin-left: 10px;
+    font-size: 13px;
+    color: #666;
+}
+
+.why-choose-us .skills {
+    padding-top: 0px;
+}
+
+.why-choose-us .skills .prog-item {
+    margin-bottom: 25px;
+}
+
+.why-choose-us .skills .prog-item:last-child {
+    margin-bottom: 0;
+}
+
+.why-choose-us .skills .prog-item p {
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.why-choose-us .skills .prog-item .skills-progress {
+    width: 100%;
+    height: 10px;
+    background: #e0e0e0;
+    border-radius: 20px;
+    position: relative;
+}
+
+.why-choose-us .skills .prog-item .skills-progress span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background:blue;
+    width: 10%;
+    border-radius: 10px;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+.why-choose-us .skills .prog-item .skills-progress span:after {
+    content: attr(data-value);
+    position: absolute;
+    top: -5px;
+    right: 0;
+    font-size: 10px;
+    font-weight: 600;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 3px 7px;
+    border-radius: 30px;
+}
+/* Add this CSS styling for the Visit Us Today section */
+.visit-us-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.visit-us-section h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.visit-us-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.visit-us-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.visit-us-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 768px) {
+    .visit-us-section {
+        padding: 30px 0;
+    }
+
+    .visit-us-section h2 {
+        font-size: 28px;
+    }
+
+    .visit-us-section p {
+        font-size: 14px;
+    }
+}
+
+
+    </style>
+    
+    
+        
+</head>
+<body>
+    <header class="navbar navbar-expand-lg navbar-light bg-white"style="position: fixed;width:100%;z-index: 1;">
+       
+            <div class="col-md-4 col-6 p-3 pl-3">
+                <!-- Display as text on larger screens -->
+                <a class="navbar-brand p-lg-2 mx-auto d-lg-block d-none" href="#section-home" style="font-family: 'Glacial Indifference', sans-serif; letter-spacing: 2px; font-size:large;font-weight: 1px;">VELICKAKATHU TRADERS</a>
+                
+                <!-- Display as image on smaller screens -->
+                <a class="nav-item nav-link active" href="#section-home">
+                <img src="img/logo.png" alt="Logo" class="d-lg-none" style="max-height: 50px; display: block; margin-left: 1px; margin-right: auto;"></a>
+            </div>
+            <div class="col-md-4 col-3 p-3 d-none d-lg-block">
+                <a class="nav-item nav-link active" href="#section-home">
+                <!-- Display as image in the middle on larger screens -->
+                <img src="img/logo.png" alt="Logo" style="max-height: 50px; display: block; margin-left: auto; margin-right: auto;"></a>
+            </div>
+            <div class="col-md-4 col-3 p-3 pr-3">
+                <!-- Navbar on the right -->
+                
+                    <button class="navbar-toggler margin-left:auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav" style="margin-left: auto;">
+                        
+                        <a class="nav-item nav-link active" href="#section-home">Home</a>
+                        <a class="nav-item nav-link active" href="#section-about">Our Story</a>
+                        <a class="nav-item nav-link active" href="#section-product">Product</a>
+                        <a class="nav-item nav-link active" href="#section-visit">Contact us</a>
+                        </div>
+                    </div>
+                  </nav>
+            </div>
+    
+    </header>
+    <section class="custom-section"id="section-home"style="padding-top:7em;">
+        
+            <img src="img/front.png" style="height: 508px;width: 1470px;align-items:center;display: block; margin-left: auto; margin-right: auto;">
+
+            <div class="image-overlay">
+               <h1>WELCOME TO</h1> <br><h2>VELICKAKATHU TRADERS</h2>
+            </div>
+        </section>
+        <section class="section.about-section"id="section-about">
+            <div class="container">
+               
+                <div class="row">
+                    <div class="col-md-4 col-12">
+                        <div class="col-md-4 col-12">
+                            <img src="img/founder.png" style="height: 350px; width: 300px; margin-top: 100px; margin-right: 60px; border-radius: 15px;">
+
+                            
+                        </div>
+                   
+                    </div>
+                    
+                    <div class="col-md-8 col-12 mr-auto">
+                        <h1 style="text-align: center; margin-top: 100px;">OUR STORY</h1>
+                        <p id="story-content" style="line-height: 25px; letter-spacing: 2px; margin-left: 20px; font-size:14px ;font-family:'Canva Sans', sans-serif; font-weight: 400; margin-top: 50px;">
+                            MV Varghese, a visionary and founder of Velickakathu Traders, embarked on a remarkable journey in 1972 that would revolutionize the perception of plumbing in his community. A dedicated UP school teacher, Varghese ventured into the business world with a groundbreaking idea that would change the landscape of domestic infrastructure.
+                        </p>
+                        
+                        <p id="additional-content" style="display: none; line-height: 25px; letter-spacing: 2px; margin-left: 20px; font-size:14px ;font-family:'Canva Sans', sans-serif; font-weight: 400;">
+                            
+
+                            During the early 1970s, plumbing was an unfamiliar concept to most people, and the services associated with it were considered a mark of luxury. MV Varghese, however, saw an opportunity to bring this essential aspect of modern living to the forefront. With a keen understanding of the evolving needs of society, he envisioned a business that would not only provide plumbing services but also redefine the way people perceived and valued this crucial aspect of home infrastructure.
+                            
+                            In the initial stages, Velickakathu Traders was a humble endeavor led by MV Varghese. As the business gained traction and recognition for its quality services, his two sons joined the venture, contributing their skills and dedication to further elevate the family enterprise. Together, they expanded the scope of Velickakathu Traders, turning it into a reliable source for plumbing solutions.
+                            
+                            At a time when wiring and plumbing were not commonly understood by the general public, Velickakathu Traders played a pivotal role in demystifying these concepts and making them accessible to a broader audience. The business not only met the growing demand for these essential services but also played a significant role in transforming them from symbols of luxury to integral components of contemporary living.
+                            
+                            MV Varghese's commitment to excellence and his foresight in recognizing the evolving needs of society laid the foundation for Velickakathu Traders' success. The business not only became a trusted name in the field but also contributed to the overall development and modernization of the community it served. Today, Velickakathu Traders stands as a testament to the vision and dedication of its founder, MV Varghese, and continues to be a key player in the ever-evolving landscape of plumbing 
+                        </p>
+                        
+                        <br>
+                        <a href="javascript:void(0);" onclick="toggleContent();" class="read-more-btn">Read More</a>
+                    </div>
+                    
+                    
+                 </div>
+
+            </div>
+
+        </section>
+        <section class="product" style="background-color:rgba(166, 166, 166, 0.127);margin-top: 50px;margin-left: 50px;margin-right: 50px;border-radius: 15px;width: auto;"id="section-product">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-md-6 col-12">
+                        <div class="text-box">
+                            <h1 style="margin-top: 50px;">Our Product</h1>
+                            <br>
+                            <p>Discover a comprehensive range of plumbing and sanitary materials designed to meet the diverse needs of homeowners, contractors, and businesses. From faucets to pipes, from bathroom fixtures to kitchen essentials, we have it all. Each product in our inventory reflects our commitment to quality and performance.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-12">
+                        <img src="img/p1.jpeg" style="height:320px;width:300px;margin-top: 50px;margin-right: 20px;">
+                    </div>
+                </div>
+                <div class="row">
+                    
+                    <div class="col-md-6 col-12">
+                        <img src="img/p2.jpg" style="height:320px;width:300px;margin-top: 50px;margin-left: 250px;">
+                        
+                    </div>
+                    
+                    <div class="col-md-6 col-12">
+                        <div class="text-box2">
+                            <h1 style="margin-top: 50px;margin-right: 20px;">Unrivaled Brands
+                            </h1>
+                            <br>
+                            <p> We believe in offering nothing but the best. We are proud to be authorized dealers of renowned brands in the industry. Our curated selection includes  Cera,Jhonson,Watertech,Aquatech,Supreme,Astral pipes,Texmo.Ellai Laxmi,Vguard,Duro flex,Kirloskar</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <section class="why-choose-us"id="section-why">
+            <div class="continer">
+                <div class="feat bg-gray pt-5 pb-5">
+                    <div class="container">
+                      <div class="row">
+                        <div class="section-head col-sm-12">
+                          <h4><span>Why Choose</span> Us?</h4>
+                          <p> You'll feel the benefit of 50 years' experience. Because we know the field and we know that how to handle it. With working knowledge.</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-globe"></i></span>
+                            <h6>Experiance Matters</h6>
+                            <p>With over 50 years in the industry, we bring unmatched expertise to every interaction.</p>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-anchor"></i></span>
+                            <h6>Trusted Brands</h6>
+                            <p>We exclusively deal with the most reputable brands, ensuring that you receive products of the highest standards.</p>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="item"> <span class="icon feature_box_col_three"><i class="fa fa-hourglass-half"></i></span>
+                            <h6>User Support</h6>
+                            <p>If our customer has any problem and any query we are always happy to help them.</p>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="item"> <span class="icon feature_box_col_four"><i class="fa fa-database"></i></span>
+                            <h6>Reliability</h6>
+                            <p>Count on us for reliable and durable solutions that stand the test of time.</p>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="item"> <span class="icon feature_box_col_five"><i class="fa fa-upload"></i></span>
+                            <h6>Customer-Centric</h6>
+                            <p>Your satisfaction is our priority. We strive to exceed your expectations at every step.</p>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="item"> <span class="icon feature_box_col_six"><i class="fa-solid fa-wallet"></i></span>
+                            <h6>Affordable cost</h6>
+                            <p>Love is a special word, and I use it only when I mean it. You say the word too much and it becomes cheap.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                
+                
+            </div>
+                
+        </section>
+        <section class="visit-us-section"id="section-visit">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Visit Us Today</h2>
+                        <p>We welcome you to experience our exceptional products and services. Visit our store today and explore a wide range of plumbing and sanitary materials. Our knowledgeable staff is ready to assist you with any inquiries.</p>
+                        <p><b>Address:</b> Velickakathu Traders<br>Koorapally Building<br>main road<br>Thalayolaparabu<br>686605</p>
+                        <p><b>Phone:</b>+914829-357735,9446287949 </p>
+                        <p><b>Email:</b>velickakathutraders@gmail.com</p>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- You can add a map or an image of your store's location here -->
+                        <!-- Example: -->
+                        <img src="img/map.png" alt="Store Location Map" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer style="background-color: blue;width: 100%;height: 50px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p style="margin-top: 13px;color: white;">Velickakathu Traders © 2023</p>
+                    </div>
+                    <div class="col-md-6"style="margin-top:13px;">
+                        <a href="http://www.facebook.com/velickakathutraders" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-facebook" style="color: white;font-size: 20px;margin-right: 10px;"></i>
+                        </a>
+                        <a href="https://www.instagram.com/velickakathutraders/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-instagram"style="color: white;font-size: 20px;margin-right:10px"></i>
+                        </a>
+                        <a href="https://wa.me/message/W3PLD54UH4XIP1" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-whatsapp"style="color: white;font-size: 20px;"></i>
+                        </a>
+                        
+                        
+                    </div>
+                    
+                </div>
+
+        </footer>
+        
+
+
+
+    <!-- Include Bootstrap JS and Popper.js (required for Bootstrap functionality) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/479c1c6524.js" crossorigin="anonymous"></script>
+    <script>
+        function toggleContent() {
+            var content = document.getElementById("additional-content");
+            var button = document.querySelector(".read-more-btn");
+    
+            if (content.style.display === "none" || content.style.display === "") {
+                content.style.display = "block";
+                button.textContent = "Read Less";
+            } else {
+                content.style.display = "none";
+                button.textContent = "Read More";
+            }
+        }
+    </script>
+</body>
+</html>
