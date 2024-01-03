@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/glacial-indifference" type="text/css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
 
     <title>VELICKAKATHU TRADERS</title>
     <link rel="icon" type="image/png" href="img/dp.png">
@@ -15,19 +17,26 @@
         }
 
         .image-overlay {
-            position: absolute;
-            top: 40%;
-            margin-left: 600px; /* Updated to align with the left side of the page */
-            transform: translateY(-58%);
-            text-align: right; /* Align text to the left */
-            
-            font-weight: normal; /* Regular weight */
-            
-        }
+        position: absolute;
+        top: 40%;
+        margin-left: 10%; /* Adjust the margin for smaller screens */
+        transform: translateY(-58%);
+        text-align: right;
+        font-weight: normal;
+    }
             
          
-      
-      
+        
+    .image-overlay h2 {
+        font-size: 30px; /* Adjust font size for smaller screens */
+        color: #ffffff;
+        font-family: 'GlacialIndifferenceRegular';
+        font-weight: normal;
+        font-style: normal;
+        letter-spacing: 3px;
+        padding-left: 10px; /* Adjust padding for smaller screens */
+    }
+
         .read-more-btn {
             display: inline-block;
             padding: 10px 20px;
@@ -376,25 +385,16 @@
     .visit-us-section p {
         font-size: 14px;
     }
-    @media (max-width: 768px) {
+}
+/* Example media query for adjusting text size on smaller screens */
+@media (max-width: 768px) {
     .image-overlay h1 {
         font-size: 30px;
     }
 
     /* Add more responsive styles as needed */
 }
-    @media (max-width: 768px) {
-    .custom-section {
-        padding-top: 5em;
-    }
-}
-@media (max-width: 768px) {
-    footer {
-        margin-top: 20px;
-    }
-}
 
-}
 
 
     </style>
@@ -404,7 +404,7 @@
 </head>
 <body>
     <header>
-       <nav class="navbar navbar-expand-lg navbar-light bg-white" style="position: fixed; width: 100%; z-index: 1;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white" style="position: fixed; width: 100%; z-index: 1;">
        
             <div class="col-md-4 col-6 p-3 pl-3">
                 <!-- Display as text on larger screens -->
@@ -422,9 +422,11 @@
             <div class="col-md-4 col-3 p-3 pr-3">
                 <!-- Navbar on the right -->
                 
-                    <button class="navbar-toggler margin-left:auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+               
+                
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                       <div class="navbar-nav" style="margin-left: auto;">
                         
@@ -439,10 +441,13 @@
     
     </header>
     <section class="custom-section"id="section-home"style="padding-top:7em;">
+        <div class="col-md-12 col-12">
         
             <img src="img/front.png" class="img-fluid" style="height: 617px; width: 100%; align-items: center; display: block; margin-left: auto; margin-right: auto;">
 
             
+           
+            </div>
         </section>
         <section class="section.about-section"id="section-about">
             <div class="container">
