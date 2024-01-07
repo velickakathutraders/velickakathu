@@ -149,6 +149,35 @@
             height: 300px;
             
         }
+        .text-box,
+.text-box2 {
+    border: 1px solid rgba(92, 30, 5, 0.450);
+    padding: 10px;
+    background-color: rgba(92, 30, 5, 0.450);
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.text-box {
+    margin-left: 5%;
+    width: 90%;
+}
+
+.text-box2 {
+    margin-right: 5%;
+    width: 90%;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .text-box,
+    .text-box2 {
+        width: 100%; /* Make the boxes full width on smaller screens */
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
         
 /* Target the why-choose-us section */
 .why-choose-us h1,
@@ -577,7 +606,10 @@ Today, Velickakathu Traders stands as a testament to the vision and dedication o
 
             <div class="container">
                 <div class="row">
-                    
+                    <div class="col-md-6">
+                        <img src="img/p1.jpeg" style="height: 320px; width: 300px; margin-top: 50px;margin-left: 200px;">
+                    </div>
+                
                     <div class="col-md-6">
                         <div class="text-box">
                             <h1 style="margin-top: 50px;">Our Product</h1>
@@ -585,18 +617,14 @@ Today, Velickakathu Traders stands as a testament to the vision and dedication o
                             <p>Discover a comprehensive range of plumbing and sanitary materials designed to meet the diverse needs of homeowners, contractors, and businesses. From faucets to pipes, from bathroom fixtures to kitchen essentials, we have it all. Each product in our inventory reflects our commitment to quality and performance.</p>
                         </div>
                     </div>
-                    
-                    <div class="col-md-6">
-                        <img src="img/p1.jpeg"  style="height: 320px; width: 100%; margin-top: 50px;">
-                    </div>
                 </div>
-        
+                
+                
                 <div class="row">
-                    
                     <div class="col-md-6 order-md-last">
-                        <img src="img/p2.jpg"  style="height: 320px; width: 100%; margin-top: 50px;">
+                        <img src="img/p2.jpg" style="height: 320px; width: 300px; margin-top: 50px;margin-left: 50px;">
                     </div>
-                    
+                
                     <div class="col-md-6 order-md-first">
                         <div class="text-box2">
                             <h1 style="margin-top: 50px;">Unrivaled Brands</h1>
@@ -605,6 +633,7 @@ Today, Velickakathu Traders stands as a testament to the vision and dedication o
                         </div>
                     </div>
                 </div>
+                
             </div>
         </section>
         
