@@ -127,57 +127,31 @@
             margin-left: 25px;
         }
         .text-box {
-            border: 1px solid rgba(92, 30, 5, 0.450); /* Border color */
-            padding: 10px; /* Adjust padding as needed */
-            background-color:rgba(92, 30, 5, 0.450); /* Background color */
-             /* Make the box only as wide as the content */
-            margin-top: 100px;
-            border-radius: 15px;
-            margin-left: 50px;
-            width:500px;
-            height: 300px;
-        }
-        .text-box2 {
-            border: 1px solid rgba(92, 30, 5, 0.450); /* Border color */
-            padding: 10px; /* Adjust padding as needed */
-            background-color:rgba(92, 30, 5, 0.450); /* Background color */
-             /* Make the box only as wide as the content */
-            margin-top: 90px;
-            border-radius: 15px;
-            margin-right: 100px;
-            width: 600px;
-            height: 300px;
-            
-        }
-        .text-box,
-.text-box2 {
-    border: 1px solid rgba(92, 30, 5, 0.450);
-    padding: 10px;
-    background-color: rgba(92, 30, 5, 0.450);
-    border-radius: 15px;
-    margin-top: 20px;
-}
-
-.text-box {
-    margin-left: 5%;
-    width: 90%;
-}
-
-.text-box2 {
-    margin-right: 5%;
-    width: 90%;
-}
-
-/* Media query for smaller screens */
-@media (max-width: 768px) {
-    .text-box,
-    .text-box2 {
-        width: 100%; /* Make the boxes full width on smaller screens */
-        margin-left: 0;
-        margin-right: 0;
+        border: 1px solid rgba(92, 30, 5, 0.450);
+        padding: 10px;
+        background-color: rgba(92, 30, 5, 0.450);
+        border-radius: 15px;
+        margin-top: 50px;
+        margin-left: auto; /* Adjust as needed */
+        margin-right: auto; /* Adjust as needed */
+        width: 100%; /* Adjust as needed */
+        max-width: 600px; /* Set a maximum width if necessary */
     }
-}
 
+    .text-box2 {
+        border: 1px solid rgba(92, 30, 5, 0.450); /* Border color */
+        padding: 10px; /* Adjust padding as needed */
+        background-color: rgba(92, 30, 5, 0.450); /* Background color */
+        border-radius: 15px;
+        width: 100%; /* Make the box width 100% */
+        max-width: 600px; /* Set a maximum width to avoid stretching on larger screens */
+        margin-top: 30px; /* Adjust top margin as needed */
+        margin-right: auto; /* Center the box horizontally */
+        margin-left: auto; /* Center the box horizontally */
+        
+    }
+
+        
         
 /* Target the why-choose-us section */
 .why-choose-us h1,
@@ -607,35 +581,38 @@ Today, Velickakathu Traders stands as a testament to the vision and dedication o
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="img/p1.jpeg" style="height: 320px; width: 300px; margin-top: 50px;margin-left: 200px;">
+                        <img src="img/p1.jpeg" style="height: 320px; width: 300px; margin-top: 50px; margin-left: 200px;" class="d-none d-md-block">
                     </div>
-                
+        
                     <div class="col-md-6">
                         <div class="text-box">
-                            <h1 style="margin-top: 50px;">Our Product</h1>
-                            <br>
-                            <p>Discover a comprehensive range of plumbing and sanitary materials designed to meet the diverse needs of homeowners, contractors, and businesses. From faucets to pipes, from bathroom fixtures to kitchen essentials, we have it all. Each product in our inventory reflects our commitment to quality and performance.</p>
+                            <h1 class="mb-4 mt-4">Our Product</h1>
+                            <p class="mb-4">Discover a comprehensive range of plumbing and sanitary materials designed to meet the diverse needs of homeowners, contractors, and businesses. From faucets to pipes, from bathroom fixtures to kitchen essentials, we have it all. Each product in our inventory reflects our commitment to quality and performance.</p>
                         </div>
+                        
                     </div>
                 </div>
-                
-                
+        
+        
                 <div class="row">
                     <div class="col-md-6 order-md-last">
-                        <img src="img/p2.jpg" style="height: 320px; width: 300px; margin-top: 50px;margin-left: 50px;">
+                        <img src="img/p2.jpg" style="height: 320px; width: 300px; margin-top: 50px; margin-left: 50px;" class="d-none d-md-block">
                     </div>
-                
+        
                     <div class="col-md-6 order-md-first">
                         <div class="text-box2">
-                            <h1 style="margin-top: 50px;">Unrivaled Brands</h1>
-                            <br>
-                            <p>We believe in offering nothing but the best. We are proud to be authorized dealers of renowned brands in the industry. Our curated selection includes Cera, Jhonson, Watertech, Aquatech, Supreme, Astral pipes, Texmo, Ellai Laxmi, Vguard, Duro flex, Kirloskar</p>
+                            <h1 class="mb-3 mt-md-4">Unrivaled Brands</h1>
+                            <p class="mb-4">
+                                We believe in offering nothing but the best. We are proud to be authorized dealers of renowned brands in the industry. Our curated selection includes Cera, Jhonson, Watertech, Aquatech, Supreme, Astral pipes, Texmo, Ellai Laxmi, Vguard, Duro flex, Kirloskar
+                            </p>
                         </div>
                     </div>
+                    
                 </div>
-                
+        
             </div>
         </section>
+        
         
         <section class="why-choose-us"id="section-why">
             <div class="continer">
